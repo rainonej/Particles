@@ -7,8 +7,6 @@ Created on Tue Feb 19 18:50:37 2019
 
 print("Hello World")
 
-print("goodbye crule world")
-
 print("why is this slow")
 
 print("change on desktop")
