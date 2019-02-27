@@ -1,0 +1,13 @@
+Goal of project
+
+I want to create a particle collision simulator
+
+[+] Initiate Git
+[+] Link it to GitHub
+[ ] Map out what I want to do
+[ ] Write the functions/classes
+[ ] Run it and record the data/graph it
+
+
+What do I want to do?
+I want to be able to do 3d spherical particle collisions in a cube (without angular momentum)

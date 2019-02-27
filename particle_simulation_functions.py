@@ -72,7 +72,7 @@ def get_energy(list_of_particles):
         #testing
         #print('mass = ', m, 'and velocity =', v)
         #temp.append(.5*np.linalg.norm(v)**2)
-        E += .5*np.linalg.norm(v)**2    
+        E += .5*m*np.linalg.norm(v)**2    
         
     return E
 
