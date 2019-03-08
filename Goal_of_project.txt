@@ -7,7 +7,14 @@ I want to create a particle collision simulator
 [ ] Map out what I want to do
 [ ] Write the functions/classes
 [ ] Run it and record the data/graph it
+[ ] Learn how to use classes
 
 
 What do I want to do?
 I want to be able to do 3d spherical particle collisions in a cube (without angular momentum)
+I want to write a (semi)reasonable pi calculation program using this particle collision library
+
+How do I want to organize the data?
+Right now I have the particles recorded as dictionaries, because there are too many different types of particles for a class.
+But really, only certain types of particles will apear in the same system.
+I guess I could create a particle class and have only the essentials on instantiation, and all the optionals default to or none.

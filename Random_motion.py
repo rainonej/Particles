@@ -13,9 +13,12 @@ a = np.array([0,0,0.])
 b = np.array([1,-1,0])
 c = Particle(a, b)
 
+
 def random_step(particle):
+    """Takes in an instance/object of the Particle Class and moves is randomly. Adds a random vector (uniform distribution) in [-1,1]^dim"""
     particle.position += 2*np.random.rand(particle.dim) - 1
-    
+ 
+
 position_history = []
 for i in range(0,9):
     position_history.append(c.position.tolist())
