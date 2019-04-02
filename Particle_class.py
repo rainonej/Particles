@@ -70,8 +70,11 @@ class SphericalParticle(Particle):
 
 	def __init__(self, position, velocity, radius):
 		super().__init__(position, velocity)
+        #Particle.__init__(self, position, velocity)
 		self.radius = radius
 		#this seems to override the previous __init__. Can I just add something to the __inti__?
+
+SphericalParticle.test_var = 0
 
 class Wall:
 	"A class to define a wall"
@@ -113,4 +116,5 @@ def wall_collision(wall, particle):
 	particle.velocity -= 2*np.dot(particle.velocity, wall.normal)*wall.normal
 
 
-
+def one_dim_ellastic_collision(particle1, particle2):
+	pass
