@@ -10,7 +10,8 @@ import numpy as np
 class Particle:
     "the particle class"
 
-    class_attribute = "nice"
+    """class_attribute = "nice"
+    """
     
     def __init__(self, position, velocity):
         '''the essentials are Position and Velocity'''
@@ -39,7 +40,6 @@ class Particle:
         dic['density'] = self.density
         dic['angular_velocity'] = self.angular_velocity
         
-        
         return dic
     
     def __str__(self):
@@ -60,8 +60,9 @@ class Particle:
     def update_energy(self):
         self.energy = .5* self.mass * np.linalg.norm(self.velocity)**2
 
-    def change(self):
+    """def change(self):
     	self.class_attribute = "hello"
+        """
 
 class SphericalParticle(Particle):
 	"testing subclasses"

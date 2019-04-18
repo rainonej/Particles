@@ -7,7 +7,7 @@ Created on Thu Feb  7 18:15:57 2019
 
 import numpy as np
 
-test_data = np.loadtxt("sample.txt", comments='*')
+#test_data = np.loadtxt("sample.txt", comments='*')
 #delimiter and comments can be used to change how it reads the txt file.
 
 
